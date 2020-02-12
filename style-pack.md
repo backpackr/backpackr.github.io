@@ -13,6 +13,8 @@
 
 ## container
 
+### default
+
 ```html
 <div style="overflow: auto;" class="container">
     <div
@@ -41,6 +43,31 @@
     <div style="width: 300px; height: 300px; color: white;" class="container_left color_sub_01_back">class="container_left"</div>
     <div style="width: 300px; height: 300px; color: white;" class="container_right color_grayscale_01_back">class="container_right</div>
 </div>
+
+### container_layout
+
+Container for layout. It will set width with screen size.
+
+```css
+@media screen and (min-width: 1280px) {
+    .container_layout {
+        width: 1280px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .container_layout {
+        width: 100%;
+    }
+}
+```
+
+```html
+<div style="height: 300px; color: white;" class="container color_point_01_back">
+    1280px or 100%
+</div>
+```
+
+<div style="height: 300px; color: white;" class="container color_point_01_back">container_layout</div>
 
 ## color
 
@@ -86,7 +113,7 @@
 -   color_grayscale_light_02
 -   color_grayscale_light_03
 
-<div class="container flex_grid align_center_text_center">
+<div class="flex_grid_6 align_center_text_center">
     <div style="height: 100px;" class="color_point_01_back">color_point_01</div>
     <div style="height: 100px;" class="color_point_02_back">color_point_02</div>
     <div style="height: 100px;" class="color_point_03_back">color_point_03</div>
@@ -124,7 +151,7 @@ You can change `width` of each `flex_grid` and see how they response.
 ### default
 
 ```html
-<div class="container flex_grid align_center_text_center">
+<div class="flex_grid align_center_text_center">
     <div class="flex_col_1 color_point_01_back">col 1</div>
     <div class="flex_col_2 color_sub_01_back">col 2</div>
     <div class="flex_col_3 color_grayscale_01_back">col 3</div>
@@ -140,7 +167,7 @@ You can change `width` of each `flex_grid` and see how they response.
 </div>
 ```
 
-<div class="container flex_grid align_center_text_center">
+<div class="flex_grid align_center_text_center">
     <div class="flex_col_1 color_point_01_back">col 1</div>
     <div class="flex_col_2 color_sub_01_back">col 2</div>
     <div class="flex_col_3 color_grayscale_01_back">col 3</div>
@@ -158,7 +185,7 @@ You can change `width` of each `flex_grid` and see how they response.
 ### flex_grid_6
 
 ```html
-<div class="container flex_grid_6 align_center_text_center">
+<div class="flex_grid_6 align_center_text_center">
     <div class="flex_col_1 color_point_01_back">col 1</div>
     <div class="flex_col_2 color_sub_01_back">col 2</div>
     <div class="flex_col_3 color_grayscale_01_back">col 3</div>
@@ -174,7 +201,7 @@ You can change `width` of each `flex_grid` and see how they response.
 </div>
 ```
 
-<div class="container flex_grid_6 align_center_text_center">
+<div class="flex_grid_6 align_center_text_center">
     <div class="flex_col_1 color_point_01_back">col 1</div>
     <div class="flex_col_2 color_sub_01_back">col 2</div>
     <div class="flex_col_3 color_grayscale_01_back">col 3</div>
