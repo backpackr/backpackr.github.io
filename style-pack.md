@@ -1,5 +1,3 @@
-<script src="https://cdn.jsdelivr.net/gh/backpackr/style-pack/app.js"></script>
-
 # hello style-pack!
 
 <div className="container flex_grid align_center_right">
