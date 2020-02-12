@@ -2,8 +2,6 @@
     <script src="https://cdn.jsdelivr.net/gh/backpackr/style-pack/app.js"></script>
 </head>
 
-<div class="container">
-
 # style-pack demo
 
 ### contents
@@ -17,22 +15,31 @@
 
 ```html
 <div style="overflow: auto;" class="container">
-    <div style="width: 300px; height: 300px;" class="container">
+    <div
+        style="width: 300px; height: 300px; color: white;"
+        class="container color_point_01_back"
+    >
         class="contaienr"
     </div>
-    <div style="width: 300px; height: 300px;" class="container_left">
+    <div
+        style="width: 300px; height: 300px; color: white;"
+        class="container_left color_sub_01_back"
+    >
         class="container_left"
     </div>
-    <div style="width: 300px; height: 300px;" class="container_right">
+    <div
+        style="width: 300px; height: 300px; color: white;"
+        class="container_right color_grayscale_01_back"
+    >
         class="container_right
     </div>
 </div>
 ```
 
 <div style="overflow: auto;" class="container">
-    <div style="width: 300px; height: 300px;" class="container color_point_01_back">class="contaienr"</div>
-    <div style="width: 300px; height: 300px;" class="container_left color_point_01_back">class="container_left"</div>
-    <div style="width: 300px; height: 300px;" class="container_right color_point_01_back">class="container_right</div>
+    <div style="width: 300px; height: 300px; color: white;" class="container color_point_01_back">class="contaienr"</div>
+    <div style="width: 300px; height: 300px; color: white;" class="container_left color_sub_01_back">class="container_left"</div>
+    <div style="width: 300px; height: 300px; color: white;" class="container_right color_grayscale_01_back">class="container_right</div>
 </div>
 
 ## color
@@ -46,7 +53,7 @@
 </div>
 ```
 
-<div style="width: 300px; height: 300px;" class="container color_point_01_font color_grayscale_01_back color_sub_01_border">sample</div>
+<div style="width: 300px; height: 300px; border: 3px solid" class="container color_point_01_font color_grayscale_01_back color_sub_01_border">sample</div>
 
 > `_back`: background-color
 > `_font`: color
@@ -180,6 +187,4 @@ You can change `width` of each `flex_grid` and see how they response.
     <div class="color_point_dark_01_back">col 1</div>
     <div class="color_sub_dart_01_back">col 1</div>
     <div class="color_grayscale_04_back">col 1</div>
-</div>
-
 </div>
