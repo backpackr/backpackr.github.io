@@ -355,11 +355,11 @@ You can choose radius size in `2, 5, 10, 15, 20, 25, 30`.
 ```
 
 <div>
-  <div style="width: 100px; height: 100px; margin: 5px;" class="radius_2 color_point_02_back">radius</div>
-  <div style="width: 100px; height: 100px; margin: 5px;" class="radius_5_top color_point_02_back">radius top</div>
-  <div style="width: 100px; height: 100px; margin: 5px;" class="radius_10_bottom color_point_02_back">radius bottom</div>
-  <div style="width: 100px; height: 100px; margin: 5px;" class="radius_15_right color_point_02_back">radius right</div>
-  <div style="width: 100px; height: 100px; margin: 5px;" class="radius_20_left color_point_02_back">radius left</div>
+  <div style="width: 100px; height: 100px; margin: 5px; display: inline-block;" class="radius_2 color_point_02_back">radius</div>
+  <div style="width: 100px; height: 100px; margin: 5px; display: inline-block;" class="radius_5_top color_point_02_back">radius top</div>
+  <div style="width: 100px; height: 100px; margin: 5px; display: inline-block;" class="radius_10_bottom color_point_02_back">radius bottom</div>
+  <div style="width: 100px; height: 100px; margin: 5px; display: inline-block;" class="radius_15_right color_point_02_back">radius right</div>
+  <div style="width: 100px; height: 100px; margin: 5px; display: inline-block;" class="radius_20_left color_point_02_back">radius left</div>
 </div>
 
 ## overflow
@@ -377,11 +377,11 @@ You can choose radius size in `2, 5, 10, 15, 20, 25, 30`.
 ```
 
 <div style="width: 300px; height: 100px; border: 2px solid black;" class="overflow_auto">
-  <div style="width: 100; height: 100; margin: 0 5px;" class="color_point_01_back">test</div>
-  <div style="width: 100; height: 100; margin: 0 5px;" class="color_point_01_back">test</div>
-  <div style="width: 100; height: 100; margin: 0 5px;" class="color_point_01_back">test</div>
-  <div style="width: 100; height: 100; margin: 0 5px;" class="color_point_01_back">test</div>
-  <div style="width: 100; height: 100; margin: 0 5px;" class="color_point_01_back">test</div>
+  <div style="width: 100px; height: 100px; margin: 0 5px;" class="color_point_01_back">test</div>
+  <div style="width: 100px; height: 100px; margin: 0 5px;" class="color_point_01_back">test</div>
+  <div style="width: 100px; height: 100px; margin: 0 5px;" class="color_point_01_back">test</div>
+  <div style="width: 100px; height: 100px; margin: 0 5px;" class="color_point_01_back">test</div>
+  <div style="width: 100px; height: 100px; margin: 0 5px;" class="color_point_01_back">test</div>
 </div>
 
 ### overflow_auto_hidescroll
@@ -397,9 +397,9 @@ You can choose radius size in `2, 5, 10, 15, 20, 25, 30`.
 ```
 
 <div style="width: 300px; height: 100px; border: 2px solid black;" class="overflow_auto_hidescroll">
-  <div style="width: 100; height: 100; margin: 0 5px;" class="color_point_01_back">test</div>
-  <div style="width: 100; height: 100; margin: 0 5px;" class="color_point_01_back">test</div>
-  <div style="width: 100; height: 100; margin: 0 5px;" class="color_point_01_back">test</div>
-  <div style="width: 100; height: 100; margin: 0 5px;" class="color_point_01_back">test</div>
-  <div style="width: 100; height: 100; margin: 0 5px;" class="color_point_01_back">test</div>
+  <div style="width: 100px; height: 100px; margin: 0 5px;" class="color_point_01_back">test</div>
+  <div style="width: 100px; height: 100px; margin: 0 5px;" class="color_point_01_back">test</div>
+  <div style="width: 100px; height: 100px; margin: 0 5px;" class="color_point_01_back">test</div>
+  <div style="width: 100px; height: 100px; margin: 0 5px;" class="color_point_01_back">test</div>
+  <div style="width: 100px; height: 100px; margin: 0 5px;" class="color_point_01_back">test</div>
 </div>
